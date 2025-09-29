@@ -4,4 +4,5 @@ services:
     plan: free
     env: docker
     docker:
-      dockerfilePath: ./Dockerfile
+      context: .
+    dockerfilePath: ./Dockerfile
