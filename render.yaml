@@ -3,6 +3,4 @@ services:
     name: college-chatbot
     plan: free
     env: docker
-    docker:
-      context: .
-    dockerfilePath: ./Dockerfile
+    dockerfilePath: Dockerfile
